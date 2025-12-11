@@ -35,14 +35,14 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Browse Products - AntiquesBazaar</title>
+        <title>Browse Products - Ransus Antique</title>
       </Head>
 
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-primary">🏺 AntiquesBazaar</Link>
+            <Link href="/" className="text-2xl font-bold text-primary">🏺 Ransus Antique</Link>
             <div className="space-x-4">
               <Link href="/products" className="text-primary font-semibold">Browse</Link>
               <Link href="/auctions" className="text-gray-700 hover:text-primary">Auctions</Link>
